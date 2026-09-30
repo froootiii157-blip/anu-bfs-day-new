@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Anu ♡</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&family=Parisienne&family=Allura&display=swap" rel="stylesheet">
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height:100vh;
+    font-family:'DM Sans',sans-serif;
+    color:#51385f;
+    background:linear-gradient(135deg,#f4eaff,#ddc6f2);
+}
+
+.page{
+    min-height:100vh;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding:25px 18px;
+}
+
+.page.active{
+    display:flex;
+}
+
+.card{
+    width:100%;
+    max-width:650px;
+    padding:40px 25px;
+    text-align:center;
+    background:rgba(255,255,255,.85);
+    border-radius:28px;
+    box-shadow:0 20px 60px rgba(80,50,100,.18);
+}
+
+.small{
+    font-size:11px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:#80618f;
+    margin-bottom:15px;
+}
+
+h1{
+    font-family:'DM Serif Display',serif;
+    font-size:40px;
+    color:#69467c;
+    margin-bottom:20px;
+}
+
+.script{
+    font-family:'Parisienne',cursive;
+    font-size:52px;
+    color:#8b1e3f;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+button{
+    border:0;
+    border-radius:50px;
+    padding:15px 25px;
+    margin:15px 5px 0;
+    font-weight:600;
+    cursor:pointer;
+    color:white;
+    background:#8b1e3f;
+}
+
+button.secondary{
+    color:#69467c;
+    background:#eadfff;
+}
+
+.breakfast{
+    font-family:'Allura',cursive;
+    font-size:64px;
+    color:#8b1e3f;
+    margin:12px 0;
+}
+
+.letter{
+    text-align:left;
+    padding:25px 20px;
+    margin:20px 0;
+    background:#fffaff;
+    border-radius:20px;
+}
+
+.letter p{
+    margin-bottom:20px;
+}
+
+.highlight{
+    text-align:center;
+    font-family:'DM Serif Display',serif;
+    font-size:27px;
+    color:#8b1e3f;
+    margin:28px 0;
+}
+
+.detail{
+    padding:16px;
+    margin:10px 0;
+    border-radius:16px;
+    background:#eee2ff;
+}
+
+.secret{
+    padding:22px;
+    margin:20px 0;
+    border-radius:20px;
+    background:#f8edf2;
+    color:#8b1e3f;
+}
+
+@media(max-width:600px){
+
+    h1{
+        font-size:34px;
+    }
+
+    .script{
+        font-size:45px;
+    }
+
+    .breakfast{
+        font-size:52px;
+    }
+
+    p{
+        font-size:15px;
+    }
+
+    .card{
+        padding:32px 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="page active" id="page1">
+<div class="card">
+
+<div class="small">A tiny surprise for you</div>
+
+<div class="script">Hey Anu...</div>
+
+<h1>I've made something for you.</h1>
+
+<p>
+And before you ask... no, you don't get to skip ahead.
+<br><br>
+You have to open everything properly.
+</p>
+
+<button onclick="nextPage(2)">Open it ♡</button>
+
+</div>
+</section>
+
+
+<section class="page" id="page2">
+<div class="card">
+
+<div class="small">Just for you</div>
+
+<h1>Happy Boyfriend's Day ♡</h1>
+
+<p>
+To my favourite person...
+<br><br>
+I have something I really want you to read.
+</p>
+
+<button onclick="nextPage(3)">
+There's a letter for you →
+</button>
+
+</div>
+</section>
+
+
+<section class="page" id="page3">
+<div class="card">
+
+<div class="small">For my favourite human</div>
+
+<h1>A little letter...</h1>
+
+<div class="letter">
+
+<p>
+Happy Boyfriend's Day, Anu.
+</p>
+
+<p>
+I know I could've just wished you
+"Happy Boyfriend's Day" and left it at that...
+but honestly, you know me.
+I could never keep it that simple when it comes to you.
+</p>
+
+<p>
+You've become such a huge part of my life
+in such a short amount of time.
+Somewhere between all our stupid conversations,
+random arguments, little moments, teasing each other
+and just being around each other...
+you became my person.
+</p>
+
+<p>
+And I don't think you realise how much
+I love the little things about us.
+</p>
+
+<p>
+The way you call me Aashu...
+<br>
+The way you randomly check on me...
+<br>
+The way you make me feel like I have someone
+to come back to...
+<br>
+The way even ordinary days become special
+when you're there.
+</p>
+
+<p>
+I love having you as my boyfriend...
+but more than that,
+I love that you're <b>you.</b>
+</p>
+
+<p>
+I love the version of myself that gets
+to exist around you.
+</p>
+
+<p>
+I love that I can be dramatic with you...
+annoying with you...
+clingy with you...
+completely stupid with you...
+and still feel safe being myself.
+</p>
+
+<div class="highlight">
+But even then...<br>
+I'd still choose you.
+</div>
+
+<p>
+I don't know exactly what the future is going to look like.
+I don't know what all we're going to experience together
+or how many stupid fights we're going to have over the years...
+</p>
+
+<p>
+But I know that right now,
+I'm really really grateful
+that it's <b>you</b> standing beside me.
+</p>
+
+<p>
+So today isn't just about wishing you
+a Happy Boyfriend's Day.
+</p>
+
+<p>
+It's about reminding you that you're loved.
+</p>
+
+<div class="highlight">
+Very, very loved.
+</div>
+
+<p>
+And because I'm your girlfriend
+and apparently I can't give you one cute thing
+without turning it into an entire event...
+</p>
+
+<p>
+I have one more thing for you.
+</p>
+
+<p style="text-align:center">
+<b>So, Anu...</b>
+<br><br>
+Are you ready for your actual
+Boyfriend's Day surprise? ♡
+</p>
+
+</div>
+
+<button onclick="nextPage(4)">
+I'm ready →
+</button>
+
+</div>
+</section>
+
+
+<section class="page" id="page4">
+<div class="card">
+
+<div class="small">Okay... one question</div>
+
+<h1>Mr. Anugrah...</h1>
+
+<p>Will you go on a</p>
+
+<div class="breakfast">
+Breakfast Date
+</div>
+
+<p>with me? ♡</p>
+
+<button onclick="nextPage(5)">
+YES, OBVIOUSLY ♡
+</button>
+
+<button
+class="secondary"
+id="thinkBtn"
+onclick="moveButton()">
+Hmm... let me think
+</button>
+
+</div>
+</section>
+
+
+<section class="page" id="page5">
+<div class="card">
+
+<div class="small">It's official</div>
+
+<h1>YOU'RE GOING ON A DATE ♡</h1>
+
+<p>But...</p>
+
+<div class="secret">
+
+<b>
+You don't get to know where we're going yet.
+</b>
+
+<br><br>
+
+Your only instructions are:
+
+</div>
+
+<div class="detail">
+📅 <b>3rd October</b>
+</div>
+
+<div class="detail">
+⏰ <b>10:00 AM</b>
+</div>
+
+<div class="detail">
+📍 <b>Pick up your girlfriend from college</b>
+</div>
+
+<br>
+
+<p>
+And after that...
+<br><br>
+<b>I'll tell you where we're going.</b>
+</p>
+
+<p style="margin-top:20px">
+No guessing.
+<br>
+No cheating.
+<br>
+No asking me 500 times.
+<br><br>
+Just trust me. ♡
+</p>
+
+<button onclick="nextPage(6)">
+I accept the mystery date →
+</button>
+
+</div>
+</section>
+
+
+<section class="page" id="page6">
+<div class="card">
+
+<div class="script">Okay...</div>
+
+<h1>It's official.</h1>
+
+<p>
+You're stuck with me for the day.
+</p>
+
+<br>
+
+<p>
+Come hungry.
+<br>
+Come cute.
+<br>
+And don't ask where we're going.
+</p>
+
+<div class="highlight">
+I'll see you at 10,
+<br>
+boyfriend. ♡
+</div>
+
+<p>
+P.S. — Come hungry.
+</p>
+
+</div>
+</section>
+
+
+<script>
+
+function nextPage(number){
+
+    document.querySelectorAll('.page').forEach(function(page){
+        page.classList.remove('active');
+    });
+
+    document.getElementById('page' + number)
+        .classList.add('active');
+
+    window.scrollTo(0,0);
+}
+
+
+function moveButton(){
+
+    var button=document.getElementById('thinkBtn');
+
+    button.innerText='Nice try...';
+
+    button.style.position='relative';
+
+    button.style.left=
+        (Math.random()*100-50)+'px';
+
+    button.style.top=
+        (Math.random()*50-25)+'px';
+}
+
+</script>
+
+</body>
+  </html>
